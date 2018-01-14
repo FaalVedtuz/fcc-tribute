@@ -1,0 +1,133 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+p {
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+nav a:link,
+nav a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.logo_container {
+    width: 90vw;
+    max-width: 90vw;
+    margin-left: 20px;
+}
+
+.logo {
+    width: 100px;
+}
+
+.hero-image {
+    /* Photo by Martin Shreder on Unsplash */
+    max-width: 100vw;
+    height: 580px;
+    background-image: url('./assets/images/Tribute-Page-Hero.jpg');
+    background-size: cover;
+}
+
+.hero-image>nav {
+    display: flex;
+    align-items: center;
+    height: 90px;
+    max-width: 100vw;
+    max-height: 90px;
+}
+
+.hero-image>nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image>nav ul li {
+    list-style-type: none;
+    width: 80px;
+}
+
+.slogan {
+    margin-left: 20px;
+}
+
+.slogan>span {
+    font-size: 6em;
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 168, 1);
+    margin-left: 18%;
+}
+
+
+/* BODY SECTION */
+
+main>section {
+    width: 50%;
+    margin: 0 auto;
+}
+
+main section a:link {
+    color: orange;
+}
+
+
+/* section a:link {
+    
+} */
+
+.caption {
+    font-size: 0.7em;
+    color: gray;
+    text-align: center;
+}
+
+.john {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.about {
+    width: 100vw !important;
+    background-color: rgb(228, 228, 228);
+}
+
+.about p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.fcc {
+    color: orange;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 40px;
+    background-color: rgb(228, 228, 228);
+    text-align: center;
+}
